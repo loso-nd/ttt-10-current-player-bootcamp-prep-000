@@ -13,7 +13,7 @@ end
 
 def current_player(board)
   
-current_player(board) = (turn_count(board) % 2) != 1 ? "X" : "O"
+ (turn_count(board) % 2) != 1 ? "X" : "O"
   
     #if (turn_count(board) % 2) != 1
       #"X"
