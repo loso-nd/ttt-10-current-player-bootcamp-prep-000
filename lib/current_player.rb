@@ -5,7 +5,8 @@
     
     if turn == "X" || turn == "O"
       counter +=1
+       puts "#{board}"
     end
   end
-    puts "#{board}"
+   counter
 end
