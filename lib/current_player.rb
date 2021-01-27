@@ -8,5 +8,5 @@
        puts "#{board}"
     end
   end
-   
+   counter
 end
