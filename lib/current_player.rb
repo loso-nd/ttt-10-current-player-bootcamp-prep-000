@@ -13,7 +13,7 @@ end
 
 def current_player(board)
   
-  # current_player(board) = gets =~ /hello/i ? "greeting" : "other"
+  # current_player(board) = turn_count(board) =~ /hello/i ? "greeting" : "other"
   
     if (turn_count(board) % 2) != 1
       "X"
