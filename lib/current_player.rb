@@ -20,3 +20,4 @@ def current_player(board)
       puts "O"
   end
 end
+turn_count(board)
