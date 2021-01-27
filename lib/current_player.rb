@@ -6,8 +6,8 @@
     
   if turn == "x" || turn == "o"
     counter +=1
+end
+end
     puts "#{board}"
-end
-end
 end
   turn_count(board)
